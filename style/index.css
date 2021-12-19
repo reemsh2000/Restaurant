@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F2F2F2;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  background-image: url('../images/1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  padding: 0 50px;
+  position: relative;
+}
+
+.hero-heading {
+  color: #BFA065;
+  font-size: 80px;
+  width: 50%;
+  line-height: 1.6;
+}
+
+.header-details {
+  color: #7a7474;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+
+.header-btn {
+  color: #BFA065;
+  border: 2px solid #BFA065;
+  text-decoration: none;
+  color: #7a7474;
+  border-radius: 30px;
+  width: 150px;
+  padding: 10px 25px;
+}
+
+/*  Main */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -250px;
+  left: 10%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 31%;
+  height: 40vh;
+  padding: 25px;
+  background-color: #fff;
+
+}
+
+.card i {
+  color: #BFA065;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #7a7474;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/*  Sugar section */
+.sugar-section {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.sugar-section h2 {
+  font-size: 27px;
+  margin: 15px 0;
+}
+
+.sugar-section p {
+  align-self: center;
+  margin: 25px 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.sugar-photos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.sugar-photos img {
+  width: 31%;
+  margin: 10px 0;
+}
+
+/* New ideas  */
+.new-ideas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+
+}
+
+.new-ideas h2 {
+  font-size: 27px;
+  margin: 15px 0;
+}
+.new-ideas p{
+  line-height: 1.5;
+  text-align: center;
+}
+.ideas-cards {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  width: 80%;
+  margin: 25px auto;
+
+}
+
+.idea-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  height: 40vh;
+  padding: 25px;
+
+}
+
+.idea-card p {
+  color: #7a7474;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 15px ;
+  text-align: left;
+}
+
+/* image-text-container */
+.image-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px 0;
+  width: 100%;
+  margin: auto;
+}
+
+.it-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 22%;
+  height: 40vh;
+  padding: 25px;
+
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.text-container {
+  border: 2px solid #BFA065;
+}
+
+.text-container h3 {
+  font-size: 23px;
+}
+
+.text-container p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* health-section */
+.health-section{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+.health-image{
+  width:50%;
+  height: 90vh;
+}
+.health-image img{
+  width:100%;
+  height: 100%;
+}
+.health-text{
+  width:50%;
+  padding: 130px 50px 0 50px;
+}
+.health-text h3{
+  font-size: 32px;
+}
+.health-text p{
+  margin: 30px 0;
+  line-height: 1.5;
+}
+/* footer */
+footer{
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 5vh;
+  padding: 25px 0 ;
+  font-size: 14px;
+}
